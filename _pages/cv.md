@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in the Bartlett Faculty of Built Environment, University College London, 2026 (expected)
+* M.Sc. in the Faculty of Mathematical and Physical Sciences, University College London, 2021
+* B.Eng. in the Faculty of Science and Engineering, University of Nottingham Ningbo China, 2020
 
-Work experience
+Research Project
 ======
 * Spring 2024: Academic Pages Collaborator
   * Github University
