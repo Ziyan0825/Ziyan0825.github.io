@@ -1,17 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-- I am an PhD student at [University College London](https://www.ucl.ac.uk/).
-- **Research Topic**: Reinforcement Learning for Built Environment
-- [Curriculum Vitae]()
-
-
-Recent research
-======
-- [Reinforcement learning in building controls: A comparative study of algorithms considering model availability and policy representation](https://www.sciencedirect.com/science/article/pii/S2352710224010659)
+* I am now a Second Year PhD Student at [University College London](https://www.ucl.ac.uk/), supervised by [Prof. Rui Tang](https://profiles.ucl.ac.uk/82724) and [Prof. Ivan Korolija](https://profiles.ucl.ac.uk/56036).
+* I received by my B.Eng. degree at University of Nottingham, Ningbo, China in 2020 and my M.Sc. degree at University College London in 2021.
+* I am proficient in Reinforcement Learning programming with Python, and have some experience in building simulation using EnergyPlus and FMU.
+* My current research interest lies on Reinforcement Learning application for HVAC optimization.
