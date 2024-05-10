@@ -1,7 +1,16 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "B.Eng. Dissertation"
+excerpt: "The aim was to investigate the influence of interfacial forces including drag force, lift force and virtual 
+mass force under LES on numerical simulation of bubble column two-phase bubbly flow."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Details
+The simulation was based on the previous experimental system of Sanyal and used large eddy simulation as the turbulence model. 
+• The transient characteristics of radial gas hold up and axial flow rate of liquid were investigated, by comparing the simulation results of three cases with experimental data.
+• Used Gambit 2.4.6 for grid generation; CFX 18.0 for numerical simulation.
+
+## Results
+<img src='/images/portfolios/beng_result1.png' width='600'>
+<img src='/images/portfolios/beng_result2.png' width='600'>
+<img src='/images/portfolios/beng_result3.png' width='600'>
