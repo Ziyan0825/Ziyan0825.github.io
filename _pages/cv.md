@@ -17,48 +17,21 @@ Education
 
 Research Project
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Large Eddy Simulation of Bubble Column Two-Phase Bubbly Flow with Considerations of Different Interfacial Forces
+  * B.Eng. Dissertation
+  * University of Nottingham Ningbo China
+  * Supervisor: [Prof. Xiaogang Yang](https://research.nottingham.edu.cn/en/persons/xiaogang-yang), [Dr. Shanshan Long](https://research.nottingham.edu.cn/en/persons/shanshan-long-2)
+  * CFD modelling of multiphase flow turbulence for engineering problems
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Preparation of Graphene Composite as Barrier Coating for OTFT/OLED Active Matrix Displays
+  * M.Sc. Dissertation
+  * University College London
+  * Supervisor: [Prof. Kwang-Leong Choy](https://www.ucl.ac.uk/institute-for-materials-discovery/academic-teaching-staff), [Dr. Mingqing Wang](https://profiles.ucl.ac.uk/44171-mingqing-wang/publications)
+  * Material systhesis and characterization of new graphene nanocomposite with enhanced gas-barrier properties
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Manufacturing Automation of Automatically Detecting Screwing Machine
+  * Research Assistant
+  * University of Nottingham Ningbo China
+  * Supervisor: [Prof. Adam Rushworth](https://www.nottingham.edu.cn/en/science-engineering/people/inspiring-people/adam-rushworth.aspx)
+  * MyRio/LabView application for vision control system
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
