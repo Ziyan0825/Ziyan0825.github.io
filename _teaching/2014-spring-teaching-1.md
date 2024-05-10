@@ -7,5 +7,4 @@ venue: "University College London, Bartlett School of Environment, Energy and Re
 date: 2022-today
 location: "London, United Kingdom"
 ---
-
 [Course Link](https://rl.talis.com/3/ucl/lists/B2F838DC-8669-F245-5F40-E3F7B4CD3133.html?lang=en-GB)
