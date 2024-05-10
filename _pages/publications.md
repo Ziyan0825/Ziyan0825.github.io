@@ -15,5 +15,3 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-- [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=LcGjR5IAAAAJ)
-
