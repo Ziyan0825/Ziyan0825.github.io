@@ -7,7 +7,9 @@ collection: portfolio
 
 ## Details
 The simulation was based on the previous experimental system of Sanyal and used large eddy simulation as the turbulence model. 
+
 • The transient characteristics of radial gas hold up and axial flow rate of liquid were investigated, by comparing the simulation results of three cases with experimental data.
+
 • Used Gambit 2.4.6 for grid generation; CFX 18.0 for numerical simulation.
 
 ## Results
