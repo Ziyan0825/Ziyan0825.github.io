@@ -20,13 +20,13 @@ Research Project
 * Large Eddy Simulation of Bubble Column Two-Phase Bubbly Flow with Considerations of Different Interfacial Forces
   * B.Eng. Dissertation
   * University of Nottingham Ningbo China
-  * Supervisor: [Prof. Xiaogang Yang](https://research.nottingham.edu.cn/en/persons/xiaogang-yang), [Dr. Shanshan Long](https://research.nottingham.edu.cn/en/persons/shanshan-long-2)
+  * Supervisor: [Prof. Xiaogang Yang](https://research.nottingham.edu.cn/en/persons/xiaogang-yang) and [Dr. Shanshan Long](https://research.nottingham.edu.cn/en/persons/shanshan-long-2)
   * CFD modelling of multiphase flow turbulence for engineering problems
 
 * Preparation of Graphene Composite as Barrier Coating for OTFT/OLED Active Matrix Displays
   * M.Sc. Dissertation
   * University College London
-  * Supervisor: [Prof. Kwang-Leong Choy](https://www.ucl.ac.uk/institute-for-materials-discovery/academic-teaching-staff), [Dr. Mingqing Wang](https://profiles.ucl.ac.uk/44171-mingqing-wang/publications)
+  * Supervisor: [Prof. Kwang-Leong Choy](https://www.ucl.ac.uk/institute-for-materials-discovery/academic-teaching-staff) and [Dr. Mingqing Wang](https://profiles.ucl.ac.uk/44171-mingqing-wang/publications)
   * Material systhesis and characterization of new graphene nanocomposite with enhanced gas-barrier properties
 
 * Manufacturing Automation of Automatically Detecting Screwing Machine
