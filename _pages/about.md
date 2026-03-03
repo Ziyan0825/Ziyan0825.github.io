@@ -14,6 +14,6 @@ redirect_from:
 
 ## 📰 Latest News
 
-* ⭐ **Feb 2026** — *MuFlex* — I developed a **scalable, physics-based multi-building co-simulation platform** that supports simulating building clusters using both EnergyPlus and Modelica, enabling **RL training, evaluation, and reproducible benchmarking** for flexibility coordination studies. *(📚 published in Energy)*
+* ⭐ **Feb 2026** — *MuFlex* [*(GitHub Link)*](https://github.com/BuildNexusX/MuFlex) — I developed a **scalable, physics-based multi-building co-simulation platform** that supports simulating building clusters using both EnergyPlus and Modelica, enabling **RL training, evaluation, and reproducible benchmarking** for flexibility coordination studies. *(📚 published in Energy)*
 * 🧑‍🤝‍🧑 **Jan 2025** — *Energy sharing in Germany LV networks* — I contributed to a study that quantified how **energy sharing** influences **low-voltage distribution network** operation under electrification and different electricity pricing signals, providing practical insights for network impacts and policy design. *(📚 published in Applied Energy)*
 * ⭐ **May 2024** — *Reinforcement learning in building controls* — I systematically benchmarked multiple RL algorithms for HVAC control, comparing how **model availability** (model-free vs model-based) and **policy representations** affect control performance and learning stability. *(📚 published in Journal of Building Engineering)*
