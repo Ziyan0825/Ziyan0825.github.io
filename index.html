@@ -102,7 +102,9 @@
 <!-- Editorial and expressive typefaces for the homepage -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+
 
 <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
 <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
@@ -110,12 +112,10 @@
 <meta name="msapplication-TileImage" content="/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="/assets/css/academicons.css"/>
 
 
 <!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 <!-- end custom head snippets -->
 
@@ -194,7 +194,7 @@
     </div>
 
     
-    <div class="home-welcome" data-home-welcome style="--welcome-image: url('/images/main.png'); --petal-image: url('/images/flower.png');">
+    <div class="home-welcome" data-home-welcome style="--welcome-image: url('/images/main-optimized.jpg'); --petal-image: url('/images/flower-small.png');">
       <div class="home-welcome__petals" aria-hidden="true">
         <span></span>
         <span></span>
@@ -239,32 +239,51 @@
           <div class="home-hero__links" aria-label="Profile links">
   
     <a href="mailto:ucaqwuc@ucl.ac.uk" aria-label="Email" title="Email">
-      <i class="fas fa-envelope" aria-hidden="true"></i>
+      <svg class="profile-links__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3.5" y="5.5" width="17" height="13" rx="2"></rect>
+        <path d="M4.5 7.5 12 13l7.5-5.5"></path>
+      </svg>
     </a>
   
   
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=LcGjR5IAAAAJ" aria-label="Google Scholar" title="Google Scholar">
-      <i class="ai ai-google-scholar" aria-hidden="true"></i>
+      <svg class="profile-links__icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m3.5 8 8.5-4 8.5 4-8.5 4-8.5-4z"></path>
+        <path d="M7 10.5v4c2 1.6 8 1.6 10 0v-4"></path>
+        <path d="M12 12v6"></path>
+      </svg>
     </a>
   
   
     <a href="https://orcid.org/0009-0001-1842-2733" aria-label="ORCID" title="ORCID">
-      <i class="ai ai-orcid" aria-hidden="true"></i>
+      <svg class="profile-links__icon profile-links__icon--text" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"></circle>
+        <text x="12" y="15.4">iD</text>
+      </svg>
     </a>
   
   
     <a href="https://www.researchgate.net/profile/Ziyan-Wu-23" aria-label="ResearchGate" title="ResearchGate">
-      <i class="ai ai-researchgate" aria-hidden="true"></i>
+      <svg class="profile-links__icon profile-links__icon--text" viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3.5" y="5" width="17" height="14" rx="3"></rect>
+        <text x="12" y="15">RG</text>
+      </svg>
     </a>
   
   
     <a href="https://github.com/Ziyan0825" aria-label="GitHub" title="GitHub">
-      <i class="fab fa-github" aria-hidden="true"></i>
+      <svg class="profile-links__icon profile-links__icon--text" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"></circle>
+        <text x="12" y="15">GH</text>
+      </svg>
     </a>
   
   
     <a href="https://www.linkedin.com/in/ziyan0825" aria-label="LinkedIn" title="LinkedIn">
-      <i class="fab fa-linkedin" aria-hidden="true"></i>
+      <svg class="profile-links__icon profile-links__icon--text" viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="4" y="4" width="16" height="16" rx="3"></rect>
+        <text x="12" y="15">in</text>
+      </svg>
     </a>
   
 </div>
@@ -273,8 +292,8 @@
         <div class="home-hero__photo">
           
             <button class="home-hero__photo-stack" type="button" aria-label="Switch profile photo" data-photo-stack>
-              <img class="home-hero__photo-back" src="/images/Ziyan2.jpg" alt="" aria-hidden="true">
-              <img class="home-hero__photo-front" src="/images/ziyan3.jpg" alt="Ziyan Wu">
+              <img class="home-hero__photo-back" src="/images/Ziyan2-thumb.jpg" alt="" aria-hidden="true" width="360" height="360" decoding="async">
+              <img class="home-hero__photo-front" src="/images/ziyan3.jpg" alt="Ziyan Wu" width="180" height="180" decoding="async" fetchpriority="high">
             </button>
           
         </div>
@@ -380,6 +399,7 @@
   <div class="home-news__list">
     
     
+    
     <article class="news-card">
       <div class="news-card__copy">
         <h3>MuFlex</h3>
@@ -394,9 +414,10 @@
         </div>
       </div>
       <button class="news-card__image" type="button" aria-label="Open MuFlex visual">
-        <img src="/images/project3.png" alt="MuFlex project visual" />
+        <img src="/images/project3-card.jpg" alt="MuFlex project visual" loading="lazy" decoding="async" data-full-src="/images/project3.png" />
       </button>
     </article>
+    
     
     <article class="news-card">
       <div class="news-card__copy">
@@ -410,9 +431,10 @@
         </div>
       </div>
       <button class="news-card__image" type="button" aria-label="Open Energy Sharing in Germany LV Networks visual">
-        <img src="/images/project2.png" alt="Energy sharing project visual" />
+        <img src="/images/project2-card.jpg" alt="Energy sharing project visual" loading="lazy" decoding="async" data-full-src="/images/project2.png" />
       </button>
     </article>
+    
     
     <article class="news-card">
       <div class="news-card__copy">
@@ -426,7 +448,7 @@
         </div>
       </div>
       <button class="news-card__image" type="button" aria-label="Open Reinforcement Learning for Building Control visual">
-        <img src="/images/project1.png" alt="Reinforcement learning project visual" />
+        <img src="/images/project1-card.jpg" alt="Reinforcement learning project visual" loading="lazy" decoding="async" data-full-src="/images/project1.png" />
       </button>
     </article>
     
@@ -446,7 +468,7 @@
 
 <div class="page__footer-copyright">
   &copy; 2026 Ziyan Wu
-  <span>Latest update: May 4, 2026</span>
+  <span>Latest update: May 5, 2026</span>
 </div>
 
       </footer>
@@ -527,7 +549,7 @@
           button.addEventListener("click", function () {
             var image = button.querySelector("img");
             if (!image) return;
-            zoomImg.src = image.src;
+            zoomImg.src = image.dataset.fullSrc || image.currentSrc || image.src;
             zoomImg.alt = image.alt;
             zoom.classList.add("is-open");
             zoom.setAttribute("aria-hidden", "false");
