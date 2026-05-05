@@ -440,9 +440,13 @@
     var breaks = [];
 
     function updateNav() {
+      var navStyle = window.getComputedStyle(nav);
+      var navContentWidth = nav.clientWidth
+        - parseFloat(navStyle.paddingLeft || 0)
+        - parseFloat(navStyle.paddingRight || 0);
       var availableSpace = button.classList.contains("hidden")
-        ? nav.clientWidth
-        : nav.clientWidth - button.offsetWidth - 30;
+        ? navContentWidth
+        : navContentWidth - button.offsetWidth - 30;
 
       if (visibleLinks.scrollWidth > availableSpace && visibleLinks.lastElementChild) {
         breaks.push(visibleLinks.scrollWidth);
