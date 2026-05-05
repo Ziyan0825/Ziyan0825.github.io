@@ -474,6 +474,52 @@
     </div>
 
     
+<script>
+  (function () {
+    var nav = document.getElementById("site-nav");
+    if (!nav) return;
+    var button = nav.querySelector("button");
+    var visibleLinks = nav.querySelector(".visible-links");
+    var hiddenLinks = nav.querySelector(".hidden-links");
+    if (!button || !visibleLinks || !hiddenLinks) return;
+
+    var breaks = [];
+
+    function updateNav() {
+      var availableSpace = button.classList.contains("hidden")
+        ? nav.clientWidth
+        : nav.clientWidth - button.offsetWidth - 30;
+
+      if (visibleLinks.scrollWidth > availableSpace && visibleLinks.lastElementChild) {
+        breaks.push(visibleLinks.scrollWidth);
+        hiddenLinks.insertBefore(visibleLinks.lastElementChild, hiddenLinks.firstElementChild);
+        button.classList.remove("hidden");
+      } else if (breaks.length && availableSpace > breaks[breaks.length - 1]) {
+        visibleLinks.appendChild(hiddenLinks.firstElementChild);
+        breaks.pop();
+      }
+
+      if (!breaks.length) {
+        button.classList.add("hidden");
+        hiddenLinks.classList.add("hidden");
+      }
+
+      button.setAttribute("count", breaks.length);
+      if (visibleLinks.scrollWidth > availableSpace && visibleLinks.lastElementChild) updateNav();
+    }
+
+    button.addEventListener("click", function () {
+      hiddenLinks.classList.toggle("hidden");
+      button.classList.toggle("close");
+    });
+
+    window.addEventListener("resize", updateNav);
+    window.addEventListener("load", updateNav);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(updateNav);
+    updateNav();
+  }());
+</script>
+
 
 
 
