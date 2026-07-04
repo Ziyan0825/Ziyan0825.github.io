@@ -333,7 +333,7 @@
 \nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)
 }\]
 
-<p>The default delimiters of <code class="language-plaintext highlighter-rouge">$$...$$</code> and <code class="language-plaintext highlighter-rouge">\\[...\\]</code> are supported for displayed mathematics, while <code class="language-plaintext highlighter-rouge">\\(...\\)</code> should be used for in-line mathematics (ex., \(a^2 + b^2 = c^2\))</p>
+<p>The default delimiters of <code>$$...$$</code> and <code>\\[...\\]</code> are supported for displayed mathematics, while <code>\\(...\\)</code> should be used for in-line mathematics (ex., \(a^2 + b^2 = c^2\))</p>
 
 <p><strong>Note</strong> that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although <a href="https://math.codidact.com/posts/278763/278772#answer-278772">some workarounds exist</a>.</p>
 
@@ -497,29 +497,29 @@
 
 <h2 id="buttons">Buttons</h2>
 
-<p>Make any link standout more when applying the <code class="language-plaintext highlighter-rouge">.btn</code> class.</p>
+<p>Make any link standout more when applying the <code>.btn</code> class.</p>
 
 <h2 id="notices">Notices</h2>
 
 <p>Basic notices or call-outs are supported using the following syntax:</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gs">**Watch out!**</span> You can also add notices by appending <span class="sb">`{: .notice}`</span> to the line following paragraph.
+<pre><code class="language-markdown">**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
 {: .notice}
-</code></pre></div></div>
+</code></pre>
 
 <p>which wil render as:</p>
 
-<p class="notice"><strong>Watch out!</strong> You can also add notices by appending <code class="language-plaintext highlighter-rouge">{: .notice}</code> to the line following paragraph.</p>
+<p class="notice"><strong>Watch out!</strong> You can also add notices by appending <code>{: .notice}</code> to the line following paragraph.</p>
 
 <h3 id="footnotes">Footnotes</h3>
 
 <p>Footnotes can be useful for clarifying points in the text, or citing information.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> Markdown support numeric footnotes, as well as text as long as the values are unique.<sup id="fnref:note" role="doc-noteref"><a href="#fn:note" class="footnote" rel="footnote">2</a></sup></p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the regular text.[^1] This is more regular text.[^note]
+<pre><code class="language-markdown">This is the regular text.[^1] This is more regular text.[^note]
 
-<span class="p">[</span><span class="ss">^1</span><span class="p">]:</span> <span class="sx">This</span> is the footnote itself.
-<span class="p">[</span><span class="ss">^note</span><span class="p">]:</span> <span class="sx">This</span> is another footnote.
-</code></pre></div></div>
+[^1]: This is the footnote itself.
+[^note]: This is another footnote.
+</code></pre>
 
 <h2 id="html-tags">HTML Tags</h2>
 
@@ -543,17 +543,17 @@
 
 <h3 id="code-tag">Code Tag</h3>
 
-<p>You will learn later on in these tests that <code class="language-plaintext highlighter-rouge">word-wrap: break-word;</code> will be your best friend.</p>
+<p>You will learn later on in these tests that <code>word-wrap: break-word;</code> will be your best friend.</p>
 
 <p>You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'Hello World!'</span><span class="p">)</span>
-</code></pre></div></div>
+<pre><code class="language-python">print('Hello World!')
+</code></pre>
 
 <p>or R:</p>
 
-<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">print</span><span class="p">(</span><span class="s2">"Hello World!"</span><span class="p">,</span><span class="w"> </span><span class="n">quote</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
-</span></code></pre></div></div>
+<pre><code class="language-R">print("Hello World!", quote = FALSE)
+</code></pre>
 
 <h3 id="strike-tag">Strike Tag</h3>
 
@@ -569,7 +569,7 @@
 
 <h3 id="keyboard-tag">Keyboard Tag</h3>
 
-<p>This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code class="language-plaintext highlighter-rouge">&lt;code&gt;</code> tag.</p>
+<p>This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code>&lt;code&gt;</code> tag.</p>
 
 <h3 id="preformatted-tag">Preformatted Tag</h3>
 
