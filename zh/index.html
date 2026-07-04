@@ -3,6 +3,8 @@
 
 
 
+
+
 <!doctype html>
 <html lang="zh" class="no-js">
   <head>
@@ -121,7 +123,19 @@
 
   </head>
 
-  <body class="home-page page-lang-zh">
+  <body class="home-page page-lang-zh home-page--welcome">
+    
+    <script>
+      (function () {
+        try {
+          if (sessionStorage.getItem("ziyanSkipWelcomeOnce") === "true") {
+            sessionStorage.removeItem("ziyanSkipWelcomeOnce");
+            document.body.classList.remove("home-page--welcome");
+            document.body.classList.add("home-page--skip-welcome");
+          }
+        } catch (error) {}
+      }());
+    </script>
     
 
     <!--[if lt IE 9]>
@@ -181,6 +195,44 @@
       <img src="" alt="" data-image-zoom-img>
     </div>
 
+    
+    <div class="home-welcome" data-home-welcome style="--welcome-image: url('/images/main-optimized.jpg'); --petal-image: url('/images/flower-small.png');">
+      <div class="home-welcome__petals" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="home-welcome__content">
+        <h1 class="home-welcome__title">吴子言的个人网站</h1>
+        <div class="home-welcome__actions" aria-label="选择主页语言">
+          
+          <a class="home-welcome__action" href="/">English</a>
+          <button class="home-welcome__action home-welcome__action--zh" type="button" data-welcome-enter>进入</button>
+          
+        </div>
+      </div>
+    </div>
     
 
     <div class="home-hero">
@@ -421,7 +473,7 @@
 
 <div class="page__footer-copyright">
   &copy; 2026 Ziyan Wu
-  <span>Latest update: May 5, 2026</span>
+  <span>Latest update: July 4, 2026</span>
 </div>
 
       </footer>

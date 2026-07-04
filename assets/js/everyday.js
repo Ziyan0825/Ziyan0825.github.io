@@ -363,6 +363,10 @@
 
     function sparkleOnce() {
       var sparkleCells = root.querySelectorAll(".github-level-4.is-active, .exercise-both.is-active");
+      if (!sparkleCells.length) {
+        sparkleCells = root.querySelectorAll(".contribution-cell.is-active");
+      }
+
       if (sparkleCells.length) {
         var cell = sparkleCells[Math.floor(Math.random() * sparkleCells.length)];
         cell.classList.add("is-sparkling");
